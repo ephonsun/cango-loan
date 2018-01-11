@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<task describe="北京银行下发任务批量" name="BJ_CallBackTask" parallelRun="false" traceOn="true">
+
+  <systemProperties>
+		<property name="frameDecorated" value="true"/>
+		<property name="dialogDecorated" value="true"/>
+		<property name="lookAndFeel" value="javax.swing.plaf.metal.MetalLookAndFeel"/>
+		<property name="phone" value="18079637336"/>
+  </systemProperties>
+
+  <targets>
+
+	<!--放款申请结果下发 IFA3-1 -->
+	<target describe="放款申请结果下发" enabled="true" name="BJ_LoanResult" parallelRun="false" traceOn="true">
+		<startTime>00:00:00</startTime>
+		<endTime>23:59:33</endTime>
+		<executeUnits>
+			<executeUnit name="CheckBatchConditionUnit" executeClass="com.cangoonline.loan.batch.task.units.base.CheckBatchConditionUnit" describe="批量运行条件检查处理单元">
+			  <property name="notifyTitle" value="放款申请结果下发批量运行条件检查"/>
+			  <property name="notifyType" value="sms"/>
+			  <property name="notifyPhone" value="${phone}"/>
+		  </executeUnit>
+		  <executeUnit name="LoanResultUnit" executeClass="com.cangoonline.loan.batch.task.units.bjbank.LoanResultUnit" describe="放款申请结果处理单元" >
+		  </executeUnit>
+		  <executeUnit name="FinancePutoutUnit" executeClass="com.cangoonline.loan.batch.task.units.bjbank.FinancePutoutUnit" describe="放款申请结果处理单元" >
+		  </executeUnit>
+	  </executeUnits>
+	  <routeTable>
+		  <route unit="CheckBatchConditionUnit"	executeStatus="unexecute"	nextUnit="CheckBatchConditionUnit"/>
+		  <route unit="CheckBatchConditionUnit"	executeStatus="successful"	nextUnit="LoanResultUnit"/>
+		  <route unit="LoanResultUnit"	executeStatus="successful"	nextUnit="FinancePutoutUnit"/>
+	  </routeTable>
+	</target>
+
+	  <!--还款分期表下发处理 IFA4)-->
+	  <target describe="还款分期表下发处理" enabled="false" name="BJ_RepaymentList" parallelRun="false" traceOn="true">
+		  <startTime>00:00:00</startTime>
+		  <endTime>23:59:33</endTime>
+		  <executeUnits>
+			  <executeUnit name="CheckBatchConditionUnit" executeClass="com.cangoonline.loan.batch.task.units.base.CheckBatchConditionUnit" describe="接收属性值">
+				  <property name="notifyTitle" value="放款申请结果下发批量运行条件检查"/>
+				  <property name="notifyType" value="sms"/>
+				  <property name="notifyPhone" value="${phone}"/>
+			  </executeUnit>
+			  <executeUnit name="PutoutApplyResultNotifyUnit" executeClass="com.cangoonline.loan.batch.task.units.bjbank.LoanResultUnit" describe="接收属性值" >
+			  </executeUnit>
+		  </executeUnits>
+		  <routeTable>
+			  <route unit="CheckBatchConditionUnit"	executeStatus="unexecute"	nextUnit="CheckBatchConditionUnit"/>
+			  <route unit="CheckBatchConditionUnit"	executeStatus="successful"	nextUnit="PutoutApplyResultNotifyUnit"/>
+		  </routeTable>
+	  </target>
+
+  </targets>
+  
+</task>

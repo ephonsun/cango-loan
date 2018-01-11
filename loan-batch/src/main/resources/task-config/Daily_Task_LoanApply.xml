@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<task describe="放款申请定时任务" name="放款申请定时任务" parallelRun="false" traceOn="true">
+
+  <systemProperties>
+		<property name="phone" value="18079637336"/>
+  </systemProperties>
+
+  <targets>
+
+	<target describe="放款申请目标任务" enabled="true" name="Daily_Task_LoanApply" parallelNumber="10" parallelRun="true" traceOn="true">
+
+		<property name="threadNumber" value="10"/>
+
+		<!-- 北京银行贷款申请发送处理逻辑" -->
+		<property name="100010"
+				  value="com.amarsoft.third.processer.CheckThirdServiceProcesser,
+						 com.amarsoft.third.processer.RuleCheckProcesser" />
+
+		<executeUnits>
+			<executeUnit name="PutoutApplyThreadUnit0" executeClass="com.cangoonline.loan.batch.task.PutoutApplyThreadUnit" describe="放款申请处理单元0">
+			  <property name="threadId" value="0"/>
+		  	</executeUnit>
+			<executeUnit name="PutoutApplyThreadUnit1" executeClass="com.cangoonline.loan.batch.task.PutoutApplyThreadUnit" describe="放款申请处理单元1">
+			  <property name="threadId" value="1"/>
+		  	</executeUnit>
+			<executeUnit name="PutoutApplyThreadUnit2" executeClass="com.cangoonline.loan.batch.task.PutoutApplyThreadUnit" describe="放款申请处理单元2">
+			  <property name="threadId" value="2"/>
+		  	</executeUnit>
+			<executeUnit name="PutoutApplyThreadUnit3" executeClass="com.cangoonline.loan.batch.task.PutoutApplyThreadUnit" describe="放款申请处理单元3">
+			  <property name="threadId" value="3"/>
+		  	</executeUnit>
+			<executeUnit name="PutoutApplyThreadUnit4" executeClass="com.cangoonline.loan.batch.task.PutoutApplyThreadUnit" describe="放款申请处理单元4">
+			  <property name="threadId" value="4"/>
+		  	</executeUnit>
+			<executeUnit name="PutoutApplyThreadUnit5" executeClass="com.cangoonline.loan.batch.task.PutoutApplyThreadUnit" describe="放款申请处理单元5">
+			  <property name="threadId" value="5"/>
+		  	</executeUnit>
+			<executeUnit name="PutoutApplyThreadUnit6" executeClass="com.cangoonline.loan.batch.task.PutoutApplyThreadUnit" describe="放款申请处理单元6">
+			  <property name="threadId" value="6"/>
+		  	</executeUnit>
+			<executeUnit name="PutoutApplyThreadUnit7" executeClass="com.cangoonline.loan.batch.task.PutoutApplyThreadUnit" describe="放款申请处理单元7">
+			  <property name="threadId" value="7"/>
+		  	</executeUnit>
+			<executeUnit name="PutoutApplyThreadUnit8" executeClass="com.cangoonline.loan.batch.task.PutoutApplyThreadUnit" describe="放款申请处理单元8">
+			  <property name="threadId" value="8"/>
+		  	</executeUnit>
+			<executeUnit name="PutoutApplyThreadUnit9" executeClass="com.cangoonline.loan.batch.task.PutoutApplyThreadUnit" describe="放款申请处理单元9">
+			  <property name="threadId" value="9"/>
+		  	</executeUnit>
+
+	  </executeUnits>
+
+		<parallelTable>
+			<unit name="PutoutApplyThreadUnit0">
+			</unit>
+			<unit name="PutoutApplyThreadUnit1">
+			</unit>
+			<unit name="PutoutApplyThreadUnit2">
+			</unit>
+			<unit name="PutoutApplyThreadUnit3">
+			</unit>
+			<unit name="PutoutApplyThreadUnit4">
+			</unit>
+			<unit name="PutoutApplyThreadUnit5">
+			</unit>
+			<unit name="PutoutApplyThreadUnit6">
+			</unit>
+			<unit name="PutoutApplyThreadUnit7">
+			</unit>
+			<unit name="PutoutApplyThreadUnit8">
+			</unit>
+			<unit name="PutoutApplyThreadUnit9">
+			</unit>
+		</parallelTable>
+	</target>
+
+  </targets>
+
+</task>

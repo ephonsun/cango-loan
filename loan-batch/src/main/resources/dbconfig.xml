@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseConfig>
+	<defaultDataSource>cango-test</defaultDataSource>
+
+	 <resources>
+		<resource name="cango-test" available="true" type="jdbc"  >
+			<driver>com.mysql.jdbc.Driver</driver>
+     	 	<url>jdbc:mysql://192.168.11.3:3306/cango_c</url>
+			<user>root</user>
+			<password>cango1qaz</password>
+			<maxActive>100</maxActive>
+			<maxWait>10000</maxWait>
+			<maxIdle>70</maxIdle>
+		</resource>
+
+	</resources>
+
+</databaseConfig>

@@ -1,0 +1,446 @@
+IFA1请求样例：{    "channelId": "0001",    "timestamp": "20171212121212",    "secretKey": "12321321412"}IFA1返回参数样例：{    "result": "0",    "description": "登录成功",    "accessToken": "1r38tefyiy"} IFA2请求参数样例 
+businessType=01{
+    "accessToken":"1324123",
+    "timestamp":"20171212121212",
+    "orderNo":"14581524832154981",
+    "channelId":"0001",
+    "dealerName":"易日升",
+    "documentType":"0",
+    "idNo":"xxx",
+    "name":"张三",
+    "bankCard":"xxx",
+    "mobile": "8817572736",
+    "loanBankCode":"bob_sh",
+    "gender":"1",
+    "age": "45",
+    "marriage":"0",
+    "house":"0",
+    "salary":"0",
+    "education":"2",
+    "industry":"3",
+    "job":"人事",
+    "company":"上海奈米有限公司",
+    "liveAddress":"上海市浦东新区张江路222号",
+    "regularlyName":"张峰",
+    "regularlyMobile":"13812324521",
+    "loanAmount":"20000.00",
+    "loanPeriod":"24",
+    "downPaymentRatio":"0",
+    "authorizationCode":"adiurr164816616",
+    "zhimaCredit":"567",
+    "tongdun":"89",
+    "businessType":"01",
+    "businessObject": {
+        "isNew":"0",
+        "brand":"奥迪",
+        "series":"别克车",
+        "type":"SUV",
+        "transactionPrice":"2000.00",
+        "guidancePrice":"2000.00",
+        "carAddress":"上海"
+    }
+}
+
+businessType=02
+{
+    "accessToken":"1324123",
+    "timestamp":"20171212121212",
+    "orderNo":"14581524832154981",
+    "channelId":"0001",
+    "dealerName":"易日升",
+    "documentType":"0",
+    "idNo":"xxx",
+    "name":"张三",
+    "bankCard":"xxx",
+    "mobile": "8817572736",
+    "loanBankCode":"bob_sh",
+    "gender":"1",
+    "age": "45",
+    "marriage":"0",
+    "house":"0",
+    "salary":"0",
+    "education":"2",
+    "industry":"3",
+    "job":"人事",
+    "company":"上海奈米有限公司",
+    "liveAddress":"上海市浦东新区张江路222号",
+    "regularlyName":"张峰",
+    "regularlyMobile":"13812324521",
+    "loanAmount":"20000.00",
+    "loanPeriod":"24",
+    "downPaymentRatio":"0",
+    "authorizationCode":"adiurr164816616",
+    "zhimaCredit":"567",
+    "tongdun":"89",    "businessType":"02",     "businessObject": { "certificateNumber":"6487154875",                        "houseSize":"100",                        "address":"上海市浦东新区博云路22号",                        "community":"阳光花园",                        "houseDesc":"1",                        "budget":"1000.00"                        }}
+
+businessType=04
+{
+    "accessToken":"1324123",
+    "timestamp":"20171212121212",
+    "orderNo":"14581524832154981",
+    "channelId":"0001",
+    "dealerName":"易日升",
+    "documentType":"0",
+    "idNo":"xxx",
+    "name":"张三",
+    "bankCard":"xxx",
+    "mobile": "8817572736",
+    "loanBankCode":"bob_sh",
+    "gender":"1",
+    "age": "45",
+    "marriage":"0",
+    "house":"0",
+    "salary":"0",
+    "education":"2",
+    "industry":"3",
+    "job":"人事",
+    "company":"上海奈米有限公司",
+    "liveAddress":"上海市浦东新区张江路222号",
+    "regularlyName":"张峰",
+    "regularlyMobile":"13812324521",
+    "loanAmount":"20000.00",
+    "loanPeriod":"24",
+    "downPaymentRatio":"0",
+    "authorizationCode":"adiurr164816616",
+    "zhimaCredit":"567",
+    "tongdun":"89",    "businessType":"04",     "businessObject": {                            "houseSize":"100",                            "address":"上海市浦东新区博云路22号",                            "community":"阳光花园",                            "depositPrice ":"2000.00",                            "depositPeriod":"1|3",                            "price":"4000.00",                            "period":"12",                            "startTime":"2016/01/23",                            "endTime":"2017/01/23"                        }}
+businessType=05
+
+{
+    "accessToken":"1324123",
+    "timestamp":"20171212121212",
+    "orderNo":"14581524832154981",
+    "channelId":"0001",
+    "dealerName":"易日升",
+    "documentType":"0",
+    "idNo":"xxx",
+    "name":"张三",
+    "bankCard":"xxx",
+    "mobile": "8817572736",
+    "loanBankCode":"bob_sh",
+    "gender":"1",
+    "age": "45",
+    "marriage":"0",
+    "house":"0",
+    "salary":"0",
+    "education":"2",
+    "industry":"3",
+    "job":"人事",
+    "company":"上海奈米有限公司",
+    "liveAddress":"上海市浦东新区张江路222号",
+    "regularlyName":"张峰",
+    "regularlyMobile":"13812324521",
+    "loanAmount":"20000.00",
+    "loanPeriod":"24",
+    "downPaymentRatio":"0",
+    "authorizationCode":"adiurr164816616",
+    "zhimaCredit":"567",
+    "tongdun":"89",    "businessType": "05",    "businessObject": {}}businessType=06{
+    "accessToken":"1324123",
+    "timestamp":"20171212121212",
+    "orderNo":"14581524832154981",
+    "channelId":"0001",
+    "dealerName":"易日升",
+    "documentType":"0",
+    "idNo":"xxx",
+    "name":"张三",
+    "bankCard":"xxx",
+    "mobile": "8817572736",
+    "loanBankCode":"bob_sh",
+    "gender":"1",
+    "age": "45",
+    "marriage":"0",
+    "house":"0",
+    "salary":"0",
+    "education":"2",
+    "industry":"3",
+    "job":"人事",
+    "company":"上海奈米有限公司",
+    "liveAddress":"上海市浦东新区张江路222号",
+    "regularlyName":"张峰",
+    "regularlyMobile":"13812324521",
+    "loanAmount":"20000.00",
+    "loanPeriod":"24",
+    "downPaymentRatio":"0",
+    "authorizationCode":"adiurr164816616",
+    "zhimaCredit":"567",
+    "tongdun":"89",        "businessType":"06",         "businessObject": {                         "applyType":"01",
+                        "carAmount":"2",                         "institutionalNumber":"66251638X",                        "insuranceName":"质谷",                        "insuranceCount":"PDAA 2012110101000000"                           }}
+
+businessType=07
+
+{
+    "accessToken":"1324123",
+    "timestamp":"20171212121212",
+    "orderNo":"14581524832154981",
+    "channelId":"0001",
+    "dealerName":"易日升",
+    "documentType":"0",
+    "idNo":"xxx",
+    "name":"张三",
+    "bankCard":"xxx",
+    "mobile": "8817572736",
+    "loanBankCode":"bob_sh",
+    "gender":"1",
+    "age": "45",
+    "marriage":"0",
+    "house":"0",
+    "salary":"0",
+    "education":"2",
+    "industry":"3",
+    "job":"人事",
+    "company":"上海奈米有限公司",
+    "liveAddress":"上海市浦东新区张江路222号",
+    "regularlyName":"张峰",
+    "regularlyMobile":"13812324521",
+    "loanAmount":"20000.00",
+    "loanPeriod":"24",
+    "downPaymentRatio":"0",
+    "authorizationCode":"adiurr164816616",
+    "zhimaCredit":"567",
+    "tongdun":"89",         "businessObject": {                              "community":"海尚逸苑",                            "carportAdress":"上海市浦东新区张江路222号",                            "carportPrice":"20000.00"                        }}
+businessType=08
+{
+    "accessToken":"1324123",
+    "timestamp":"20171212121212",
+    "orderNo":"14581524832154981",
+    "channelId":"0001",
+    "dealerName":"易日升",
+    "documentType":"0",
+    "idNo":"xxx",
+    "name":"张三",
+    "bankCard":"xxx",
+    "mobile": "8817572736",
+    "loanBankCode":"bob_sh",
+    "gender":"1",
+    "age": "45",
+    "marriage":"0",
+    "house":"0",
+    "salary":"0",
+    "education":"2",
+    "industry":"3",
+    "job":"人事",
+    "company":"上海奈米有限公司",
+    "liveAddress":"上海市浦东新区张江路222号",
+    "regularlyName":"张峰",
+    "regularlyMobile":"13812324521",
+    "loanAmount":"20000.00",
+    "loanPeriod":"24",
+    "downPaymentRatio":"0",
+    "authorizationCode":"adiurr164816616",
+    "zhimaCredit":"567",
+    "tongdun":"89",        "businessType":"08",         "businessObject": {                          "coueseType":"01",                        "courseName":"专升本",                        "coursePrice":"10000.00",                        "inPerson":"0",                        "coursePattern":"02",                        "periods":"100",                        "unitPrice":"1000.00"                        }}businessType=09{
+    "accessToken":"1324123",
+    "timestamp":"20171212121212",
+    "orderNo":"14581524832154981",
+    "channelId":"0001",
+    "dealerName":"易日升",
+    "documentType":"0",
+    "idNo":"xxx",
+    "name":"张三",
+    "bankCard":"xxx",
+    "mobile": "8817572736",
+    "loanBankCode":"bob_sh",
+    "gender":"1",
+    "age": "45",
+    "marriage":"0",
+    "house":"0",
+    "salary":"0",
+    "education":"2",
+    "industry":"3",
+    "job":"人事",
+    "company":"上海奈米有限公司",
+    "liveAddress":"上海市浦东新区张江路222号",
+    "regularlyName":"张峰",
+    "regularlyMobile":"13812324521",
+    "loanAmount":"20000.00",
+    "loanPeriod":"24",
+    "downPaymentRatio":"0",
+    "authorizationCode":"adiurr164816616",
+    "zhimaCredit":"567",
+    "tongdun":"89",
+    "businessType":"09",
+    "businessObject": {
+        "commodityBrand":"三星",
+        "commodityPrice":"2000.00",
+        "commodityModel":"X102v",
+        "buyStore":"上海市宝山区",
+        "commodityType":"0"
+    }
+}
+
+IFA2返回参数样例   {        "result":"0",        "description":""}
+
+IFA2-1请求参数样例{        "channelId":"2896485184585",        "orderNo":"2896485184585",        "timestamp":"20171212121212",        "serialNo":"184478388383",        "creditNo":"136366363737",        "pbcClassification":"4",        "score":"38",        "result":"0"}
+
+IFA2-1返回参数样例{        "result":"0",        "description":"消息接收成功"}IFA2-2请求参数样例{        "accessToken":"1324123",        "timestamp":"20171212121212",        "orderNo":"14581524832154981",        "creditNo":"14581524832154981",
+        "businessType":"01",
+        "loanBankCode":"bob_sh",
+        "denyType":"01"
+}
+
+IFA2-2返回参数样例{        "result":"0",        "description":"消息接收成功"}IFA3请求参数样例
+businessType=01{        "accessToken":"1324123",        "timestamp":"20171212121212",        "orderNo":"14581524832154981",        "creditNo":"14581524832154981",        "channelId":"0001",        "dealerName":"易日升",         "idNo":"xxx",        "name":"张三",         "bankCard":"xxx",        "mobile":"18817572736",        "loanAmount":"666776.00",        "loanPeriod":"12",        "invoiceAmount":"6667770.00",        "downPayment":"2000.00",        "idFile":"Id_1.JPG",        "loanContractFile":"Contract_1.JPG",        "authorizationFile":"QueryCredit_1.JPG",        "creaditContractFil":"CreditContract_1.JPG",        "loanUserFile":"LoanPurpose _1.JPG",        "loanApplicationFile":"Apply_1.JPG",        "loanReceiptFile":"BorrowerIOU_1.JPG",         "businessType":"01",         "businessObject": {                        "brand":"奥迪",                        "series":"别克车",                        "type":"SUV",                        "transactionPrice":"2000.00",                        "guidancePrice":"2000.00",                         "carAddress":"上海",                        "isNew":"1",                        "hasDetection":"1",                        "vin":"817481364845",                        "mileage":"5000",                        "initialRegistrationDate":"2016/02/21",                        "licensePlateAddress":"上海",                        "evaluationPrice":"100000.00",                        "drivingLicenseFile":"Travel_1.JPG",                        "driverLicenceFile":"Dive_1.JPG",                        "vehicleRegistrationFile":"Register_1.JPG",                        "vehicleInvoiceFile":"Invoice_1.JPG",                        "insuranceFile":"Insurance_1.JPG",                        "GPSLocation":"GPSinstall_1.JPG",                        "GPSConfirm":"GPSconfirm _1.JPG",                        "purchaseAgreementFile":"Agreement_1.JPG"                        }}businessType=02{        "accessToken":"1324123",        "timestamp":"20171212121212",        "orderNo":"14581524832154981",        "creditNo":"14581524832154981",        "channelId":"0001",        "dealerName":"易日升",         "idNo":"xxx",        "name":"张三",         "bankCard":"xxx",        "mobile":"18817572736",        "loanAmount":"666776.00",        "loanPeriod":"12",        "invoiceAmount":"6667770.00",        "downPayment":"2000.00",        "idFile":"Id_1.JPG",        "loanContractFile":"Contract_1.JPG",        "authorizationFile":"QueryCredit_1.JPG",        "creaditContractFil":"CreditContract_1.JPG",        "loanUserFile":"LoanPurpose _1.JPG",        "loanApplicationFile":"Apply_1.JPG",        "loanReceiptFile":"BorrowerIOU_1.JPG",         "businessType":"02",        "businessObject": {                        "houseSize":"100",                        "address":"上海市浦东新区博云路22号",                        "community":"阳光花园",                        "houseDesc":"1",                        "budget":"1000.00",                        "companyName":"上海佳贝贝股份有限先公司",                        "companyAccount ":"61465238452983459864",                        "registCapital":"10000.00",                        "companyAddress":"上海浦东新区张江路222号",                        "legalName":"李建",                        "legalID":"210312197811230921",                        "images":"Prospecting_1.JPG",                        "decorationContract":"DecorationContract_1.JPG",                        "houseProperty ":"BouseProperty",                        "businessLicense":"DecorationLicense_1.JPG",                        "decorationDesign":"Renovation_1.JPG",                        "decorationBudget":"Budget_1.JPG"                        }}
+
+businessType=04{        "accessToken":"1324123",        "timestamp":"20171212121212",        "orderNo":"14581524832154981",        "creditNo":"14581524832154981",        "channelId":"0001",        "dealerName":"易日升",         "idNo":"xxx",        "name":"张三",         "bankCard":"xxx",        "mobile":"18817572736",        "loanAmount":"666776.00",        "loanPeriod":"12",        "invoiceAmount":"6667770.00",        "downPayment":"2000.00",        "idFile":"Id_1.JPG",        "loanContractFile":"Contract_1.JPG",        "authorizationFile":"QueryCredit_1.JPG",        "creaditContractFil":"CreditContract_1.JPG",        "loanUserFile":"LoanPurpose _1.JPG",        "loanApplicationFile":"Apply_1.JPG",        "loanReceiptFile":"BorrowerIOU_1.JPG",          "businessType":"04",        "businessObject": {                        "houseSize":"100",                        "address":"上海市浦东新区博云路22号",                        "community":"阳光花园",                        "depositPrice":"1000.00",                         "depositPeriod":"1|3",                        "price":"4000.00",                                                  "period":"12",                        "startTime":"2016/01/23",                        "endTime":"2017/01/23",                        "ownerName":"王五",                        "ownerIdNo":"312934199021142110" ,                        "businessLicense":"BusinessLicense_1.JPG",                        "idFile":"Ownerid_1.JPG",                        "rentContract":"Rental_1.JPG",                        "leaseAgreementOwner":"Lease_1.JPG",                        "images":"Prospecting_1.JPG"                        }}businessType=05{        "accessToken":"1324123",        "timestamp":"20171212121212",        "orderNo":"14581524832154981",        "creditNo":"14581524832154981",        "channelId":"0001",        "dealerName":"易日升",         "idNo":"xxx",        "name":"张三",         "bankCard":"xxx",        "mobile":"18817572736",        "loanAmount":"666776.00",        "loanPeriod":"12",        "invoiceAmount":"6667770.00",        "downPayment":"2000.00",        "idFile":"Id_1.JPG",        "loanContractFile":"Contract_1.JPG",        "authorizationFile":"QueryCredit_1.JPG",        "creaditContractFil":"CreditContract_1.JPG",        "loanUserFile":"LoanPurpose _1.JPG",        "loanApplicationFile":"Apply_1.JPG",        "loanReceiptFile":"BorrowerIOU_1.JPG",         "businessType":"05",        "businessObject": {}}businessType=06{        "accessToken":"1324123",        "timestamp":"20171212121212",        "orderNo":"14581524832154981",        "creditNo":"14581524832154981",        "channelId":"0001",        "dealerName":"易日升",         "idNo":"xxx",        "name":"张三",         "bankCard":"xxx",        "mobile":"18817572736",        "loanAmount":"666776.00",        "loanPeriod":"12",        "invoiceAmount":"6667770.00",        "downPayment":"2000.00",        "idFile":"Id_1.JPG",        "loanContractFile":"Contract_1.JPG",        "authorizationFile":"QueryCredit_1.JPG",        "creaditContractFil":"CreditContract_1.JPG",        "loanUserFile":"LoanPurpose _1.JPG",        "loanApplicationFile":"Apply_1.JPG",        "loanReceiptFile":"BorrowerIOU_1.JPG",          "businessType":"06",        "businessObject": {                        "brandTrademark":"一汽-大众奥迪",                        "carType":"小型普通客车",                        "transactionPrice":"2000.00",                        "carAddress":"上海",                         "isNew":"1",                        "hasDetection":"1",                        "initialRegistrationDate":"2015/12/1",                        "licensePlateAddress":"江苏省镇江市",                        "insuranceName":"质谷",                        "insuranceCount":"PDAA 2012110101000000",                        "drivingLicenseFile":"Travel_1.JPG",                        "driverLicenceFile":"Dive_1.JPG",                        "vehicleInvoiceFile":"Invoice_1.JPG",
+			"insurancePolicy":"InsurancePolicy_1.JPG",                        "serviceAgreement":"Service_1.JPG",                        "applyType":"02",
+			"carAmount":"2",	                        "legalFile":"Legalid_1.JPG",                        "institutionalNumber":"66251638X",                        "businessFile":"Enterpriselicense_1.JPG"                        }}
+
+
+businessType=07{        "accessToken":"1324123",        "timestamp":"20171212121212",        "orderNo":"14581524832154981",        "creditNo":"14581524832154981",        "channelId":"0001",        "dealerName":"易日升",         "idNo":"xxx",        "name":"张三",         "bankCard":"xxx",        "mobile":"18817572736",        "loanAmount":"666776.00",        "loanPeriod":"12",        "invoiceAmount":"6667770.00",        "downPayment":"2000.00",        "idFile":"Id_1.JPG",        "loanContractFile":"Contract_1.JPG",        "authorizationFile":"QueryCredit_1.JPG",        "creaditContractFil":"CreditContract_1.JPG",        "loanUserFile":"LoanPurpose _1.JPG",        "loanApplicationFile":"Apply_1.JPG",        "loanReceiptFile":"BorrowerIOU_1.JPG",          "businessType":"07",        "businessObject": {                            "community":"海尚逸苑",                            "carportAdress":"上海市浦东新区张江路222号",                            "carportPrice":"20000.00",                            "serviceAgreement":"Service_1.JPG",                            "proofIncome":"IncomeProve_1.JPG",                            "houseProperty":"HouseProperty_1.JPG",                            "buyPurpose":"Buypurpose_1.JPG",                            "buyCompact":"Buycompact_1.JPG"                            }}
+
+
+businessType=08{        "accessToken":"1324123",        "timestamp":"20171212121212",        "orderNo":"14581524832154981",        "creditNo":"14581524832154981",        "channelId":"0001",        "dealerName":"易日升",         "idNo":"xxx",        "name":"张三",         "bankCard":"xxx",        "mobile":"18817572736",        "loanAmount":"666776.00",        "loanPeriod":"12",        "invoiceAmount":"6667770.00",        "downPayment":"2000.00",        "idFile":"Id_1.JPG",        "loanContractFile":"Contract_1.JPG",        "authorizationFile":"QueryCredit_1.JPG",        "creaditContractFil":"CreditContract_1.JPG",        "loanUserFile":"LoanPurpose _1.JPG",        "loanApplicationFile":"Apply_1.JPG",        "loanReceiptFile":"BorrowerIOU_1.JPG",         "businessType":"08",        "businessObject": {                            "coueseType":"01",                            "courseName":"专升本",                            "coursePrice":"10000.00",                            "inPerson":"0",                            "coursePattern":"01",                            "periods":" 100",                            "unitPrice":" 10000.00",                            "courseContract":"CourseSellcContract_1.JPG",                            "loanContract":"LoanContract_1.JPG",                            "serviceAgreement":"Service_1.JPG"                        }}
+
+businessType=09{
+    "accessToken":"1324123",
+    "timestamp":"20171212121212",
+    "orderNo":"14581524832154981",
+    "channelId":"0001",
+    "dealerName":"易日升",
+    "documentType":"0",
+    "idNo":"xxx",
+    "name":"张三",
+    "bankCard":"xxx",
+    "mobile": "8817572736",
+    "loanBankCode":"bob_sh",
+    "gender":"1",
+    "age": "45",
+    "marriage":"0",
+    "house":"0",
+    "salary":"0",
+    "education":"2",
+    "industry":"3",
+    "job":"人事",
+    "company":"上海奈米有限公司",
+    "liveAddress":"上海市浦东新区张江路222号",
+    "regularlyName":"张峰",
+    "regularlyMobile":"13812324521",
+    "loanAmount":"20000.00",
+    "loanPeriod":"24",
+    "downPaymentRatio":"0",
+    "authorizationCode":"adiurr164816616",
+    "zhimaCredit":"567",
+    "tongdun":"89",
+    "businessType":"09",
+    "businessObject": {
+        "commodityBrand":"三星",
+        "commodityPrice":"2000.00",
+        "commodityModel":"X102v",
+        "buyStore":"上海市宝山区",
+        "commodityType":"0",
+	"buyInvoice":"BuyInvoice_1.JPG"
+    }
+}
+
+IFA3返回样例：
+
+{        "result":"0",        "description":"自动审核通过",
+	"applyNo":"45854518345" }IFA3-1请求参数样例{        "channelId":"761454589867671",        "timestamp":"20171212121212",        "fileURL":"LoanResult_1.txt",        "MD5":"siutr76cqv666654%$^#&$755cv1v",        "fileVersion":"V1.0"}
+
+每日借款还款文件返回内容样例2|100000.00245872|14575148754|张三|42112719921871534875285|1232424214214|42142414521321|成功|无|0220_2000.00_20.00,0320_2000.00_20.00,0420_2000.00_20.00,…|2000.00245873|14575148755|李四|42112719921072534875285|1232424212234|52142414521321|成功|无|0220_2000.00_20.00,0320_2000.00_20.00,0420_2000.00_20.00,…|2000.00
+
+IFA3-1返回参数样例{        "result":"0",        "description":""}IFA4请求参数样例{        "channelId":"761454589867671",        "timestamp":"20171212121212",        "fileURL":"RepaymentList_1.txt",        "MD5":"siutr76cqv666654%$^#&$755cv1v",        "fileVersion":"V1.0" }还款分期表文件内容样例2|550.00871487155576|323123244|3213235212|3232141245|张三|xxx|12|2017/06/20|200.00|20.00|220.008714871555556|323123244|3213235132|3232221245|李四|xxx|12|2017/06/20|300.00|30.00|330.00
+
+IFA4返回参数样例    {        "result":"0",        "description":"文件接收成功"    }IFA5请求参数样例{        "accessToken":"sdddsddd",        "channelId":"761454589867671",        "timestamp":"20171212121212",        "fileURL":"RepaymentListReport_1.txt",        "MD5":"siutr76cqv666654%$^#&$755cv1v",        "fileVersion":"V1.0",        "repaymentDate":"2017/06/20"}
+
+还款清单处理结果文件内容样例20|40000.00|2|4020.00145745875|458548|张三|xxx|2321321334|3231452552|1|2017/06/20|2000.00|20.00|2020.00|2010.00|10.00145745875|458549|李四|xxx|2321321334|3231452552|1|2017/06/20|2000.00|20.00|2020.00|2010.00|10.00IFA5返回参数样例{        "result":"0",        "description":"文件接收成功"}IFA5-1请求参数样例{        "channelId":"761454589867671",        "timestamp":"20171212121212",        "fileURL":"RepaymentListReportResult_1.txt",        "MD5":"siutr76cqv666654%$^#&$755cv1v",        "fileVersion":"V1.0"}
+
+还款分期表校对数据处理结果文件内容样例2001|458549|张三|xxx|81458145985|9993939338|查无数据001|458549|李四|xxx|814581459323|999393933|查无数据IFA5-1返回参数样例 {        "result":"0",        "description":"文件接收成功"}IFA5-2请求参数样例    {        "channelId":"761454589867671",        "timestamp":"20171212121212",        "fileURL":"RepaymentResult_1.txt",        "MD5":"siutr76cqv666654%$^#&$755cv1v",        "fileVersion":"V1.0"    }
+
+还款分期表结果文件内容样例：2871487155576|3231232445|张三|xxx|12345|203322|还款账户余额不足871487155555|3232221245|李四|xxx|12334|203321|系统内部跑批错误
+
+IFA5-2返回参数样例{        "result":"0",        "description":"文件接收成功"}IFA6请求参数样例：{        "accessToken":"sdddsddd",        "channelId":"183875875545",        "orderNo":"18754587458",        "name":"张三",        "idNo":"xxx",        "creditNo":"45854518345",        "applyNo":"45854518345",        "loanBalance":"789.00"}IFA6返回参数样例{        "result":"0",        "orderNo":"1875418755",        "creditNo":"1232321321425",        "applyNo":"3214214455214",        "principal":"90000.00",        "interest":"800.00",        "total":"90800.00"}IFA7请求参数样例{        "accessToken":"23234245323",        "channelId":"1458748486532",        "timestamp":"20171212121212",        "fileURL":"Prepayment_1.txt",        "MD5":"siutr76cqv666654%$^#&$755cv1v",        "fileVersion":"V1.0"}提前还款文件内容样例2|4080.00012132324|2324521355521|张三|xxx|88848484|949944|10|2000.00|40.00|1|2000.00012132325|2324521355523|李四|xxx|88848483|949945|10|2000.00|40.00|0|0.00IFA7返回参数样例{        "result":"0",        "description":"文件接收成功"}
+
+IFA7-1请求参数样例{        "channelId":"761454589867671",        "timestamp":"20171212121212",        "fileURL":"PrepaymentReport_1.txt",        "MD5":"siutr76cqv666654%$^#&$755cv1v",        "fileVersion":"V1.0"}
+
+提前还款失败结果文件内容样例1张三|xxx|81458145985|1232321321425|3214214455214|账户金额不足IFA7-1返回参数样例  {        "result":"0",        "description":"文件接收成功"  }
+
+IFA8请求参数样例{        "channelId":"761454589867671",        "timestamp":"20171212121212",        "fileURL":"CompPrepaymentList_1.txt",        "MD5":"siutr76cqv666654%$^#&$755cv1v",        "fileVersion":"V1.0"}
+
+强制提前还款文件内容样例2|4040.00245871458751|14575148754|42112719921871534875285|3212132142156|张三|xxx|2000,00|20.00245871458751|14515487545|148751987216498164986486|3212132142157|李四|xxx|2000,00|20.00
+
+IFA8返回参数样例{        "result":"0",        "description":"文件接收成功"}
+
+IFA9请求参数样例
+businessType=01{
+    "accessToken":"sdddsddd",
+    "channelId":"0001",
+    "timestamp":"20171212121212",
+    "applyNo":"14581524832154981",
+    "creditNo":"14581524832154981",  
+    "name":"张三",
+    "idNo":"xxx",
+    "businessType": "01",
+    "businessObject": {
+        "vehicleInvoiceFile":"Invoice_1.JPG",
+        "insuranceFile":"HouseProperty_1.JPG"
+    }
+}
+
+
+businessType=02{
+    "channelId":"0001",
+    "timestamp":"20171212121212",
+    "applyNo":"14581524832154981",
+    "creditNo":"14581524832154981",  
+    "name":"张三",
+    "idNo":"xxx",
+    "businessType":"02",
+    "businessObject": {
+        "decorationContract":"DecorationContract_1.JPG"
+    }
+}businessType=04{
+    "channelId":"0001",
+    "timestamp":"20171212121212",
+    "applyNo":"14581524832154981",
+    "creditNo":"14581524832154981",  
+    "name":"张三",
+    "idNo":"xxx",
+    "businessType":"04",
+    "businessObject": {
+        "rentContract":"Rental_1.JPG"
+    }
+}
+
+businessType=06{
+    "channelId":"0001",
+    "timestamp":"20171212121212",
+    "applyNo":"14581524832154981",
+    "creditNo":"14581524832154981",  
+    "name":"张三",
+    "idNo":"xxx",
+    "businessType":"06",
+    "businessObject": {
+        "insurancePolicy":"InsurancePolicy_1.JPG"
+    }
+}
+
+businessType=07{
+    "channelId":"0001",
+    "timestamp":"20171212121212",
+    "applyNo":"14581524832154981",
+    "creditNo":"14581524832154981",  
+    "name":"张三",
+    "idNo":"xxx",
+    "businessType":"07",
+    "businessObject": {
+        "loanContractFile":"Contract_1.JPG",
+	"GPSLocation":"BuyCompact_1.JPG"
+    }
+}
+
+businessType=08{
+    "channelId":"0001",
+    "timestamp":"20171212121212",
+    "applyNo":"14581524832154981",
+    "creditNo":"14581524832154981",  
+    "name":"张三",
+    "idNo":"xxx",
+    "businessType":"08",
+    "businessObject": {
+        "courseContract":"CourseSellcContract_1.JPG"
+    }
+}
+
+IFA9返回参数样例{        "result":"0",        "description":"文件下载成功"}
